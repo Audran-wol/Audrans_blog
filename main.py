@@ -221,5 +221,4 @@ def delete_post(post_id):
 
 
 if __name__ == "__main__":
-    port = os.getenv('PORT', default=8000)
-    app.run(debug=True, host='localhost', port=port)
+    app.run(debug=True, host='localhost', port=3000)
